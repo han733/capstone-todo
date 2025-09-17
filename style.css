@@ -1,0 +1,19 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { display:flex; align-items:center; justify-content:center; min-height:100vh; background:#f4f4f8; margin:0; }
+.container { width:100%; max-width:520px; background:white; padding:20px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+h1 { margin:0 0 12px 0; font-size:22px; }
+#search-input { width:100%; padding:8px; margin-bottom:12px; border:1px solid #ddd; border-radius:6px; }
+#task-form { display:flex; gap:8px; margin-bottom:12px; }
+#task-input { flex:1; padding:8px; border:1px solid #ddd; border-radius:6px; }
+#priority-select { padding:8px; border:1px solid #ddd; border-radius:6px; }
+button { padding:8px 12px; border:none; border-radius:6px; cursor:pointer; background:#eee; }
+ul { list-style:none; padding:0; margin:0; }
+li { display:flex; justify-content:space-between; align-items:center; padding:8px; border-bottom:1px solid #f0f0f0; }
+li.done span { text-decoration:line-through; opacity:0.6; }
+.actions button { margin-left:6px; }
+
+/* Warna prioritas */
+.priority-rendah { color:green; }
+.priority-sedang { color:orange; }
+.priority-tinggi { color:red; font-weight:bold; }
+
