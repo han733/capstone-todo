@@ -1,26 +1,43 @@
-# Capstone: To-Do List
+# Capstone Project: To-Do List App ✅
 
-## Deskripsi
-Aplikasi To-Do sederhana untuk capstone, menggunakan HTML/CSS/JavaScript dan localStorage.
+Aplikasi **To-Do List sederhana** untuk membantu mencatat dan mengelola tugas harian.  
+Dibuat sebagai bagian dari Capstone Project semester 3 Informatika.
 
-## Teknologi
-- HTML, CSS, JavaScript (Vanilla)
-- Penyimpanan: localStorage
-- Deployment: Netlify / Vercel (opsional)
+---
 
-## Fitur
-- Tambah, lihat, edit, hapus tugas
-- Tandai tugas selesai
-- Persisten lewat localStorage
+## 📖 Deskripsi
+Proyek ini adalah aplikasi berbasis web sederhana yang memungkinkan pengguna:
+- Menambahkan tugas baru
+- Mengedit tugas yang ada
+- Menandai tugas selesai
+- Menghapus tugas
+- Mencari tugas berdasarkan kata kunci  
 
-## Cara Menjalankan (lokal)
-1. Buka file `index.html` di browser atau jalankan Live Server di VSCode.
+Data disimpan menggunakan **LocalStorage**, sehingga tidak hilang meskipun halaman direfresh.
 
-## AI Support (selama development)
-Saya menggunakan (sebutkan: IBM Granite) untuk:
-- Membantu membuat struktur awal proyek
-- Memberi contoh potongan kode
-- Membuat draft README dan slide presentasi
+---
 
-## Catatan
-(isi setelah selesai)
+## ✨ Fitur Utama
+- ➕ Tambah tugas baru  
+- 📝 Edit tugas  
+- ✅ Tandai tugas selesai  
+- ❌ Hapus tugas  
+- 🔍 Pencarian tugas  
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- **HTML5** → struktur halaman  
+- **CSS3** → desain tampilan  
+- **JavaScript (ES6)** → logika aplikasi  
+- **LocalStorage** → menyimpan data di browser  
+- **GitHub Pages** → hosting aplikasi  
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+1. Clone repository:
+   ```bash
+   git clone https://github.com/han733/capstone-todo.git
+
+
